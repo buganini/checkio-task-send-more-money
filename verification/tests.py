@@ -30,5 +30,29 @@ TESTS = {
             "input": u"TIME IS MONEY",
             "answer": False,
         },
+        {
+            "input": u"ONE ONE TWO",
+            "answer": True,
+        },
+        {
+            "input": u"ONE TWO THREE",
+            "answer": False,
+        },
+        {
+            "input": u"TOP AND DOWN",
+            "answer": True,
+        },
+        {
+            "input": u"HOW ARE YOU",
+            "answer": True,
+        },
+        {
+            "input": u"AND OR NOT",
+            "answer": True,
+        },
+        {
+            "input": u"PYCON APAC TAIWAN",
+            "answer": False,
+        },
     ]
 }
