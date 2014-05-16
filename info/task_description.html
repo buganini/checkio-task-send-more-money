@@ -3,15 +3,15 @@
 </p>
 
 <p>
-    Given a string, for example, "SEND MORE MONEY". Every words are numbers where charactors are distinct numbers, belong to {0, ... 9} . You have to check if "SENFD + MORE = MONEY" has solution or not.
+    Given a string consisted of three words "FOO BAR BLAH", each word is a decimal number, and characters are distinct digits. You have to check if FOO + BAR = BLAH has solution or not. For example, "SEND MORE MONEY" has a solution S=9, E=5, N=6, D=7, M=1, O=0, R=8, E=5, M=1, O=0, N=6, E=5, Y=2, ie. SEND + MORE MONEY is 9567 + 1085 = 10652.
 </p>
 
 <p>
-    <strong>Input: </strong>An string with three words.
+    <strong>Input: </strong>String, a string with three words
 </p>
 
 <p>
-    <strong>Output: </strong>If there is solution or not.
+    <strong>Output: </strong>Boolean, if there is solution or not
 </p>
 
 <div class="for_info_only">
@@ -19,7 +19,8 @@
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio("SEND MORE MONEY") # True
-checkio("GET LESS JOBS") # True
+    assert checkio("SEND MORE MONEY") == True
+    assert checkio("GET LESS JOBS") == True
+    assert checkio("ONE TWO THREE") == False
     </pre>
 </div>
