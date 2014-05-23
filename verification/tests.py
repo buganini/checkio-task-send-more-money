@@ -19,6 +19,12 @@ TESTS = {
             "answer": False,
         },
         {
+            "input": u"CCC CCC CCCCC",
+            "answer": False,
+        }
+    ],
+    "Advanceds":[
+        {
             "input": u"NO ANSWER HERE",
             "answer": False,
         },
