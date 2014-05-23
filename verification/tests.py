@@ -11,6 +11,18 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
+            "input": u"AAA BBB CCC",
+            "answer": True,
+        },
+        {
+            "input": u"AAA AAA AAA",
+            "answer": False,
+        },
+        {
+            "input": u"NO ANSWER HERE",
+            "answer": False,
+        },
+        {
             "input": u"SEND MORE MONEY",
             "answer": True,
         },
